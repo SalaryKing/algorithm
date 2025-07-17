@@ -8,7 +8,8 @@ public class Work6 {
 
     /**
      * KMP（Knuth-Morris-Pratt）算法，用于在 query 字符串中查找 pattern 字符串
-     * @param query 要搜索的主字符串
+     *
+     * @param query   要搜索的主字符串
      * @param pattern 要查找的模式字符串
      * @return 如果找到模式字符串返回 true，否则返回 false
      */
@@ -61,6 +62,7 @@ public class Work6 {
 
     /**
      * 程序的入口点，用于测试 repeatedSubstringPattern 方法
+     *
      * @param args 命令行参数
      */
     public static void main(String[] args) {

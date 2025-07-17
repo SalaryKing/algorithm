@@ -7,7 +7,7 @@ public class Work3 {
      * 算法：朴素模式匹配算法(暴力算法)
      *
      * @param haystack 要搜索的字符串。
-     * @param needle 要查找的子字符串。
+     * @param needle   要查找的子字符串。
      * @return 如果找到匹配项，返回其在 haystack 中的起始下标；否则返回 -1。
      */
     public int strStr(String haystack, String needle) {
@@ -47,6 +47,7 @@ public class Work3 {
             return -1;
         }
     }
+
     /**
      * 程序的入口点，用于测试 strStr 方法。
      *

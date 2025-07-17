@@ -6,7 +6,7 @@ public class Work4 {
      * 利用 KMP 算法优化暴力匹配，找出字符串中第一个匹配项的下标。
      *
      * @param haystack 要搜索的字符串
-     * @param needle 要查找的子字符串
+     * @param needle   要查找的子字符串
      * @return 如果找到匹配项，返回其在 haystack 中的起始下标；若未找到，返回 -1
      */
     public static int strStr(String haystack, String needle) {

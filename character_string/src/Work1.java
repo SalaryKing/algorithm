@@ -18,9 +18,9 @@ public class Work1 {
         // 当右边界小于字符串长度时，继续扩展窗口
         while (right < s.length()) {
             // 获取当前右边界指向的字符
-            char ch = s.charAt(right);  //charAt() 方法用于返回指定索引位置的字符。索引范围为从 0 到 length() - 1。
+            char ch = s.charAt(right);  // charAt() 方法用于返回指定索引位置的字符。索引范围为从 0 到 length() - 1。
             // 在滑动窗口的左边界到右边界之间查找当前字符的位置
-            int index = s.substring(left, right).indexOf(ch);  //substring() 方法返回字符串的子字符串。 indexOf() 方法返回字符串中第一次出现指定字符的索引。
+            int index = s.substring(left, right).indexOf(ch);  // substring() 方法返回字符串的子字符串。 indexOf() 方法返回字符串中第一次出现指定字符的索引。
             // 如果找到了重复字符
             if (index != -1) {
                 // 修正左边界，跳过重复字符

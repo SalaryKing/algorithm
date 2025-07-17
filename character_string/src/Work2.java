@@ -1,6 +1,7 @@
 public class Work2 {
     /**
      * 此方法用于找出给定字符串中的最长回文子串
+     *
      * @param s 输入的字符串
      * @return 最长回文子串
      */
